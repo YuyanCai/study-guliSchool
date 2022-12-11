@@ -1,0 +1,12 @@
+2022-12-09 20:16:00.970 [http-nio-8001-exec-2] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - / by zero
+2022-12-09 21:39:43.203 [http-nio-8001-exec-5] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-09 21:44:38.328 [http-nio-8001-exec-1] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-09 21:45:53.729 [http-nio-8001-exec-3] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-09 21:53:17.167 [http-nio-8001-exec-7] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-09 22:05:36.945 [http-nio-8001-exec-9] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
