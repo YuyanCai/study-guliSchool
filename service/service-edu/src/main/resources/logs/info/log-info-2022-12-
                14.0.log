@@ -1,550 +1,456 @@
-2022-12-15 15:54:03.164 [main] INFO 
+2022-12-14 19:45:02.129 [main] INFO 
+                com.study.EduApplication - Starting EduApplication on xiaocaidembp with PID 4355 (/Users/xiaocai/Documents/JavaResource/Code/SpringCode/project-training/OnlineEducationSystem/OnlineEducationSystem/service/service-edu/target/classes started by qiang in /Users/xiaocai/Documents/JavaResource/Code/SpringCode/project-training/OnlineEducationSystem/OnlineEducationSystem)
+2022-12-14 19:45:02.134 [main] INFO 
                 com.study.EduApplication - The following profiles are active: dev
-2022-12-15 15:54:04.231 [main] INFO 
+2022-12-14 19:45:03.349 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 15:54:04.235 [main] INFO 
+2022-12-14 19:45:03.352 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 15:54:04.270 [main] INFO 
+2022-12-14 19:45:03.389 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
-2022-12-15 15:54:04.512 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
-2022-12-15 15:54:04.633 [main] INFO 
+2022-12-14 19:45:03.711 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 15:54:04.659 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 15:54:04.855 [main] INFO 
+2022-12-14 19:45:03.970 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 15:54:04.863 [main] INFO 
+2022-12-14 19:45:03.977 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 15:54:04.864 [main] INFO 
+2022-12-14 19:45:03.977 [main] INFO 
                 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 15:54:04.864 [main] INFO 
+2022-12-14 19:45:03.977 [main] INFO 
                 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 15:54:04.968 [main] INFO 
+2022-12-14 19:45:04.046 [main] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 15:54:04.969 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1763 ms
-2022-12-15 15:54:05.371 [main] INFO 
+2022-12-14 19:45:04.047 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1811 ms
+2022-12-14 19:45:04.281 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 15:54:05.479 [main] INFO 
+2022-12-14 19:45:04.485 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 15:54:06.308 [main] INFO 
+2022-12-14 19:45:05.374 [main] INFO 
                 s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 15:54:06.349 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 15:54:06.355 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 15:54:06.492 [main] INFO 
+2022-12-14 19:45:05.518 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 15:54:07.131 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 15:54:07.365 [main] INFO 
+2022-12-14 19:45:06.034 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 15:54:07.400 [main] INFO 
+2022-12-14 19:45:06.049 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 15:54:07.467 [main] INFO 
+2022-12-14 19:45:06.088 [main] INFO 
                 s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 15:54:07.839 [main] INFO 
+2022-12-14 19:45:06.341 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 15:54:07.979 [main] INFO 
+2022-12-14 19:45:06.386 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 15:54:08.022 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 15:54:08.033 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 6.242 seconds (JVM running for 7.796)
-2022-12-15 15:54:18.684 [http-nio-8001-exec-1] INFO 
+2022-12-14 19:45:06.395 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 4.835 seconds (JVM running for 5.502)
+2022-12-14 19:48:42.367 [http-nio-8001-exec-1] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 15:54:18.685 [http-nio-8001-exec-1] INFO 
+2022-12-14 19:48:42.370 [http-nio-8001-exec-1] INFO 
                 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 15:54:18.708 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
-2022-12-15 16:12:53.872 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 16:12:53.923 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 16:12:54.063 [SpringContextShutdownHook] INFO 
+2022-12-14 19:48:42.398 [http-nio-8001-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2022-12-14 20:46:52.623 [SpringContextShutdownHook] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:12:54.074 [SpringContextShutdownHook] INFO 
+2022-12-14 20:46:52.627 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 16:12:54.091 [SpringContextShutdownHook] INFO 
+2022-12-14 20:46:52.644 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 16:13:01.576 [main] INFO 
+2022-12-14 20:47:10.829 [main] INFO 
                 com.study.EduApplication - The following profiles are active: dev
-2022-12-15 16:13:02.449 [main] INFO 
+2022-12-14 20:47:11.740 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 16:13:02.452 [main] INFO 
+2022-12-14 20:47:11.743 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 16:13:02.482 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
-2022-12-15 16:13:02.708 [main] INFO 
+2022-12-14 20:47:11.778 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2022-12-14 20:47:12.031 [main] INFO 
                 o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
-2022-12-15 16:13:02.819 [main] INFO 
+2022-12-14 20:47:12.149 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:13:02.844 [main] INFO 
+2022-12-14 20:47:12.175 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:13:03.039 [main] INFO 
+2022-12-14 20:47:12.365 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 16:13:03.045 [main] INFO 
+2022-12-14 20:47:12.372 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:13:03.046 [main] INFO 
+2022-12-14 20:47:12.373 [main] INFO 
                 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 16:13:03.046 [main] INFO 
+2022-12-14 20:47:12.373 [main] INFO 
                 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 16:13:03.140 [main] INFO 
+2022-12-14 20:47:12.470 [main] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 16:13:03.141 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1532 ms
-2022-12-15 16:13:03.502 [main] INFO 
+2022-12-14 20:47:12.471 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1613 ms
+2022-12-14 20:47:12.860 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 16:13:03.583 [main] INFO 
+2022-12-14 20:47:12.960 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 16:13:04.250 [main] INFO 
+2022-12-14 20:47:13.685 [main] INFO 
                 s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 16:13:04.273 [main] INFO 
+2022-12-14 20:47:13.711 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:13:04.276 [main] INFO 
+2022-12-14 20:47:13.716 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:13:04.394 [main] INFO 
+2022-12-14 20:47:13.894 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:13:04.970 [main] INFO 
+2022-12-14 20:47:14.489 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 16:13:05.110 [main] INFO 
+2022-12-14 20:47:14.673 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 16:13:05.150 [main] INFO 
+2022-12-14 20:47:14.704 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 16:13:05.198 [main] INFO 
+2022-12-14 20:47:14.733 [main] INFO 
                 s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 16:13:05.503 [main] INFO 
+2022-12-14 20:47:14.933 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:13:05.534 [main] INFO 
+2022-12-14 20:47:14.959 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 16:13:05.565 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 16:13:05.577 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.033 seconds (JVM running for 5.669)
-2022-12-15 16:13:12.304 [http-nio-8001-exec-2] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 16:13:12.306 [http-nio-8001-exec-2] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 16:13:12.330 [http-nio-8001-exec-2] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
-2022-12-15 16:14:33.725 [SpringContextShutdownHook] INFO 
+2022-12-14 20:48:05.057 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 55.406 seconds (JVM running for 56.144)
+2022-12-14 20:50:30.053 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 16:14:33.748 [SpringContextShutdownHook] INFO 
+2022-12-14 20:50:30.062 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 16:14:33.796 [SpringContextShutdownHook] INFO 
+2022-12-14 20:50:30.099 [SpringContextShutdownHook] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:14:33.809 [SpringContextShutdownHook] INFO 
+2022-12-14 20:50:30.110 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 16:14:33.822 [SpringContextShutdownHook] INFO 
+2022-12-14 20:50:30.128 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 16:14:45.041 [main] INFO 
+2022-12-14 20:58:11.518 [main] INFO 
                 com.study.EduApplication - The following profiles are active: dev
-2022-12-15 16:14:45.927 [main] INFO 
+2022-12-14 20:58:12.354 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 16:14:45.929 [main] INFO 
+2022-12-14 20:58:12.356 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 16:14:45.957 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
-2022-12-15 16:14:46.197 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
-2022-12-15 16:14:46.315 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:14:46.342 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:14:46.549 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 16:14:46.558 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:14:46.558 [main] INFO 
-                org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 16:14:46.558 [main] INFO 
-                org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 16:14:46.677 [main] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 16:14:46.678 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1606 ms
-2022-12-15 16:14:47.229 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 16:14:47.341 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 16:14:48.219 [main] INFO 
-                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 16:14:48.260 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:14:48.263 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:14:48.420 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:14:49.017 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 16:14:49.259 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 16:14:49.291 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 16:14:49.339 [main] INFO 
-                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 16:14:49.674 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:14:49.704 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 16:14:49.736 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 16:14:49.751 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.862 seconds (JVM running for 6.558)
-2022-12-15 16:15:01.182 [http-nio-8001-exec-1] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 16:15:01.183 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 16:15:01.200 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
-2022-12-15 16:18:32.690 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 16:18:32.707 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 16:18:32.766 [SpringContextShutdownHook] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:18:32.775 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 16:18:32.786 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 16:18:44.882 [main] INFO 
-                com.study.EduApplication - The following profiles are active: dev
-2022-12-15 16:18:45.801 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 16:18:45.804 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 16:18:45.833 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
-2022-12-15 16:18:46.084 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
-2022-12-15 16:18:46.201 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:18:46.229 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:18:46.429 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 16:18:46.436 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:18:46.437 [main] INFO 
-                org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 16:18:46.438 [main] INFO 
-                org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 16:18:46.534 [main] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 16:18:46.535 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1621 ms
-2022-12-15 16:18:46.939 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 16:18:47.029 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 16:18:47.841 [main] INFO 
-                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 16:18:47.871 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:18:47.874 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:18:48.038 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:18:48.641 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 16:18:48.870 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 16:18:48.905 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 16:18:48.951 [main] INFO 
-                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 16:18:49.312 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:18:49.348 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 16:18:49.374 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 16:18:49.390 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.556 seconds (JVM running for 6.194)
-2022-12-15 16:19:06.315 [http-nio-8001-exec-1] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 16:19:06.316 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 16:19:06.337 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
-2022-12-15 16:23:37.885 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 16:23:37.912 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 16:23:37.955 [SpringContextShutdownHook] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:23:37.966 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 16:23:37.979 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 16:23:45.743 [main] INFO 
-                com.study.EduApplication - The following profiles are active: dev
-2022-12-15 16:23:46.607 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 16:23:46.609 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 16:23:46.636 [main] INFO 
+2022-12-14 20:58:12.382 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
-2022-12-15 16:23:46.892 [main] INFO 
+2022-12-14 20:58:12.626 [main] INFO 
                 o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
-2022-12-15 16:23:47.007 [main] INFO 
+2022-12-14 20:58:12.738 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:23:47.035 [main] INFO 
+2022-12-14 20:58:12.764 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:23:47.233 [main] INFO 
+2022-12-14 20:58:12.949 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 16:23:47.239 [main] INFO 
+2022-12-14 20:58:12.956 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:23:47.240 [main] INFO 
+2022-12-14 20:58:12.957 [main] INFO 
                 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 16:23:47.240 [main] INFO 
+2022-12-14 20:58:12.957 [main] INFO 
                 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 16:23:47.335 [main] INFO 
+2022-12-14 20:58:13.056 [main] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 16:23:47.335 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1560 ms
-2022-12-15 16:23:47.710 [main] INFO 
+2022-12-14 20:58:13.056 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1508 ms
+2022-12-14 20:58:13.435 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 16:23:47.798 [main] INFO 
+2022-12-14 20:58:13.524 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 16:23:48.523 [main] INFO 
+2022-12-14 20:58:14.247 [main] INFO 
                 s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 16:23:48.549 [main] INFO 
+2022-12-14 20:58:14.273 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:23:48.552 [main] INFO 
+2022-12-14 20:58:14.276 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:23:48.688 [main] INFO 
+2022-12-14 20:58:14.393 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:23:49.249 [main] INFO 
+2022-12-14 20:58:14.900 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 16:23:49.502 [main] INFO 
+2022-12-14 20:58:15.079 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 16:23:49.529 [main] INFO 
+2022-12-14 20:58:15.110 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 16:23:49.573 [main] INFO 
+2022-12-14 20:58:15.139 [main] INFO 
                 s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 16:23:49.855 [main] INFO 
+2022-12-14 20:58:15.418 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:23:49.882 [main] INFO 
+2022-12-14 20:58:15.444 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 16:23:49.920 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 16:23:49.932 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.317 seconds (JVM running for 6.024)
-2022-12-15 16:23:58.481 [http-nio-8001-exec-1] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 16:23:58.482 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 16:23:58.504 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
-2022-12-15 16:41:34.725 [SpringContextShutdownHook] INFO 
+2022-12-14 20:58:15.499 [main] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 172.20.10.2:8001 register finished
+2022-12-14 20:58:15.516 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 5.128 seconds (JVM running for 5.725)
+2022-12-14 20:58:25.030 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 16:41:34.741 [SpringContextShutdownHook] INFO 
+2022-12-14 20:58:25.050 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 16:41:34.777 [SpringContextShutdownHook] INFO 
+2022-12-14 20:58:25.090 [SpringContextShutdownHook] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:41:34.786 [SpringContextShutdownHook] INFO 
+2022-12-14 20:58:25.096 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 16:41:34.794 [SpringContextShutdownHook] INFO 
+2022-12-14 20:58:25.103 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 16:58:05.677 [main] INFO 
+2022-12-14 20:58:29.853 [main] INFO 
                 com.study.EduApplication - The following profiles are active: dev
-2022-12-15 16:58:06.544 [main] INFO 
+2022-12-14 20:58:30.715 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 16:58:06.546 [main] INFO 
+2022-12-14 20:58:30.717 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 16:58:06.574 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
-2022-12-15 16:58:06.819 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5382652c-861f-3a5f-88d0-c7b8e50bd4f1
-2022-12-15 16:58:06.935 [main] INFO 
+2022-12-14 20:58:30.742 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2022-12-14 20:58:30.986 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
+2022-12-14 20:58:31.098 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:58:06.963 [main] INFO 
+2022-12-14 20:58:31.125 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 16:58:07.158 [main] INFO 
+2022-12-14 20:58:31.314 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 16:58:07.164 [main] INFO 
+2022-12-14 20:58:31.321 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:58:07.165 [main] INFO 
+2022-12-14 20:58:31.321 [main] INFO 
                 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 16:58:07.166 [main] INFO 
+2022-12-14 20:58:31.322 [main] INFO 
                 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 16:58:07.290 [main] INFO 
+2022-12-14 20:58:31.426 [main] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 16:58:07.290 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1576 ms
-2022-12-15 16:58:07.657 [main] INFO 
+2022-12-14 20:58:31.426 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1538 ms
+2022-12-14 20:58:31.795 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 16:58:07.752 [main] INFO 
+2022-12-14 20:58:31.877 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 16:58:08.547 [main] INFO 
+2022-12-14 20:58:32.594 [main] INFO 
                 s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 16:58:08.570 [main] INFO 
+2022-12-14 20:58:32.622 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:58:08.573 [main] INFO 
+2022-12-14 20:58:32.624 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 16:58:08.698 [main] INFO 
+2022-12-14 20:58:32.745 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 16:58:09.265 [main] INFO 
+2022-12-14 20:58:33.280 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 16:58:09.474 [main] INFO 
+2022-12-14 20:58:33.463 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 16:58:09.505 [main] INFO 
+2022-12-14 20:58:33.492 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 16:58:09.548 [main] INFO 
+2022-12-14 20:58:33.529 [main] INFO 
                 s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 16:58:09.861 [main] INFO 
+2022-12-14 20:58:33.816 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 16:58:09.888 [main] INFO 
+2022-12-14 20:58:33.843 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 16:58:09.937 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 16:58:09.950 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.629 seconds (JVM running for 6.282)
-2022-12-15 16:58:13.612 [http-nio-8001-exec-1] INFO 
+2022-12-14 20:58:33.893 [main] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 172.20.10.2:8001 register finished
+2022-12-14 20:58:33.904 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 5.13 seconds (JVM running for 5.722)
+2022-12-14 21:13:45.432 [http-nio-8001-exec-1] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 16:58:13.614 [http-nio-8001-exec-1] INFO 
+2022-12-14 21:13:45.435 [http-nio-8001-exec-1] INFO 
                 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 16:58:13.633 [http-nio-8001-exec-1] INFO 
+2022-12-14 21:13:45.464 [http-nio-8001-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 28 ms
+2022-12-14 21:17:09.800 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-12-14 21:17:09.807 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-12-14 21:17:09.864 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-14 21:17:09.874 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-14 21:17:09.884 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-14 21:17:18.762 [main] INFO 
+                com.study.EduApplication - The following profiles are active: dev
+2022-12-14 21:17:19.739 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 21:17:19.741 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-14 21:17:19.771 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2022-12-14 21:17:20.014 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
+2022-12-14 21:17:20.151 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 21:17:20.182 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 21:17:20.383 [main] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-12-14 21:17:20.389 [main] INFO 
+                org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-12-14 21:17:20.390 [main] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-14 21:17:20.390 [main] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-12-14 21:17:20.487 [main] INFO 
+                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-14 21:17:20.488 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1694 ms
+2022-12-14 21:17:20.901 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-14 21:17:20.999 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-14 21:17:21.770 [main] INFO 
+                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-14 21:17:21.802 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-12-14 21:17:21.807 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-12-14 21:17:21.943 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-14 21:17:22.507 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2022-12-14 21:17:22.703 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-12-14 21:17:22.734 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-12-14 21:17:22.776 [main] INFO 
+                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-12-14 21:17:23.062 [main] INFO 
+                org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-12-14 21:17:23.091 [main] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-12-14 21:17:23.121 [main] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 172.20.10.2:8001 register finished
+2022-12-14 21:17:23.135 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 5.503 seconds (JVM running for 6.132)
+2022-12-14 21:17:57.988 [http-nio-8001-exec-1] INFO 
+                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-14 21:17:57.989 [http-nio-8001-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-12-14 21:17:58.007 [http-nio-8001-exec-1] INFO 
                 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
-2022-12-15 17:17:50.098 [SpringContextShutdownHook] INFO 
+2022-12-14 21:19:16.563 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 17:17:50.161 [SpringContextShutdownHook] INFO 
+2022-12-14 21:19:16.574 [SpringContextShutdownHook] INFO 
                 o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 17:17:50.297 [SpringContextShutdownHook] INFO 
+2022-12-14 21:19:16.619 [SpringContextShutdownHook] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 17:17:50.309 [SpringContextShutdownHook] INFO 
+2022-12-14 21:19:16.628 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 17:17:50.325 [SpringContextShutdownHook] INFO 
+2022-12-14 21:19:16.639 [SpringContextShutdownHook] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 17:17:58.356 [main] INFO 
+2022-12-14 21:19:27.464 [main] INFO 
                 com.study.EduApplication - The following profiles are active: dev
-2022-12-15 17:17:59.301 [main] INFO 
+2022-12-14 21:19:28.459 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 17:17:59.304 [main] INFO 
+2022-12-14 21:19:28.462 [main] INFO 
                 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 17:17:59.336 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
-2022-12-15 17:17:59.628 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5382652c-861f-3a5f-88d0-c7b8e50bd4f1
-2022-12-15 17:17:59.752 [main] INFO 
+2022-12-14 21:19:28.493 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2022-12-14 21:19:28.737 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
+2022-12-14 21:19:28.848 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 17:17:59.785 [main] INFO 
+2022-12-14 21:19:28.876 [main] INFO 
                 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 17:18:00.000 [main] INFO 
+2022-12-14 21:19:29.064 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 17:18:00.008 [main] INFO 
+2022-12-14 21:19:29.070 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 17:18:00.009 [main] INFO 
+2022-12-14 21:19:29.071 [main] INFO 
                 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 17:18:00.009 [main] INFO 
+2022-12-14 21:19:29.071 [main] INFO 
                 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 17:18:00.125 [main] INFO 
+2022-12-14 21:19:29.171 [main] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 17:18:00.126 [main] INFO 
-                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1739 ms
-2022-12-15 17:18:00.475 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 17:18:00.573 [main] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 17:18:01.355 [main] INFO 
-                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 17:18:01.378 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 17:18:01.382 [main] INFO 
-                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 17:18:01.518 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 17:18:02.075 [main] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 17:18:02.272 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 17:18:02.302 [main] INFO 
-                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 17:18:02.357 [main] INFO 
-                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 17:18:02.721 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 17:18:02.747 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 17:18:02.771 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 17:18:02.776 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.717 seconds (JVM running for 6.402)
-2022-12-15 17:18:06.590 [http-nio-8001-exec-1] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 17:18:06.591 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 17:18:06.610 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
-2022-12-15 19:43:42.154 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
-2022-12-15 19:43:42.198 [SpringContextShutdownHook] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
-2022-12-15 19:43:42.253 [SpringContextShutdownHook] INFO 
-                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2022-12-15 19:43:42.263 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2022-12-15 19:43:42.279 [SpringContextShutdownHook] INFO 
-                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2022-12-15 19:43:47.644 [main] INFO 
-                com.study.EduApplication - The following profiles are active: dev
-2022-12-15 19:43:48.566 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-2022-12-15 19:43:48.569 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-2022-12-15 19:43:48.600 [main] INFO 
-                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 repository interfaces.
-2022-12-15 19:43:48.867 [main] INFO 
-                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=5382652c-861f-3a5f-88d0-c7b8e50bd4f1
-2022-12-15 19:43:48.978 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 19:43:49.010 [main] INFO 
-                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-12-15 19:43:49.219 [main] INFO 
-                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
-2022-12-15 19:43:49.226 [main] INFO 
-                org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
-2022-12-15 19:43:49.227 [main] INFO 
-                org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2022-12-15 19:43:49.227 [main] INFO 
-                org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2022-12-15 19:43:49.349 [main] INFO 
-                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2022-12-15 19:43:49.350 [main] INFO 
+2022-12-14 21:19:29.171 [main] INFO 
                 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1676 ms
-2022-12-15 19:43:49.711 [main] INFO 
+2022-12-14 21:19:29.543 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2022-12-15 19:43:49.803 [main] INFO 
+2022-12-14 21:19:29.626 [main] INFO 
                 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2022-12-15 19:43:50.591 [main] INFO 
+2022-12-14 21:19:30.330 [main] INFO 
                 s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-12-15 19:43:50.615 [main] INFO 
+2022-12-14 21:19:30.358 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 19:43:50.622 [main] INFO 
+2022-12-14 21:19:30.361 [main] INFO 
                 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2022-12-15 19:43:50.759 [main] INFO 
+2022-12-14 21:19:30.478 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2022-12-15 19:43:51.334 [main] INFO 
+2022-12-14 21:19:30.994 [main] INFO 
                 o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
-2022-12-15 19:43:51.530 [main] INFO 
+2022-12-14 21:19:31.194 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2022-12-15 19:43:51.560 [main] INFO 
+2022-12-14 21:19:31.223 [main] INFO 
                 s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2022-12-15 19:43:51.605 [main] INFO 
+2022-12-14 21:19:31.259 [main] INFO 
                 s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2022-12-15 19:43:51.925 [main] INFO 
+2022-12-14 21:19:31.530 [main] INFO 
                 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
-2022-12-15 19:43:51.953 [main] INFO 
+2022-12-14 21:19:31.567 [main] INFO 
                 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
-2022-12-15 19:43:51.995 [main] INFO 
-                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 192.168.1.3:8001 register finished
-2022-12-15 19:43:52.001 [main] INFO 
-                com.study.EduApplication - Started EduApplication in 5.501 seconds (JVM running for 6.311)
-2022-12-15 19:50:54.252 [http-nio-8001-exec-1] INFO 
+2022-12-14 21:19:31.613 [main] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 172.20.10.2:8001 register finished
+2022-12-14 21:19:31.629 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 5.258 seconds (JVM running for 5.896)
+2022-12-14 21:19:39.058 [http-nio-8001-exec-1] INFO 
                 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-12-15 19:50:54.254 [http-nio-8001-exec-1] INFO 
+2022-12-14 21:19:39.061 [http-nio-8001-exec-1] INFO 
                 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2022-12-15 19:50:54.278 [http-nio-8001-exec-1] INFO 
-                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2022-12-14 21:19:39.082 [http-nio-8001-exec-1] INFO 
+                org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2022-12-14 21:54:05.278 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-12-14 21:54:05.322 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-12-14 21:54:05.364 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-14 21:54:05.373 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-14 21:54:05.386 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-12-14 21:54:12.203 [main] INFO 
+                com.study.EduApplication - The following profiles are active: dev
+2022-12-14 21:54:13.151 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-14 21:54:13.153 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-12-14 21:54:13.184 [main] INFO 
+                o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2022-12-14 21:54:13.432 [main] INFO 
+                o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3deb62e2-32bd-3997-8265-66407bf6339b
+2022-12-14 21:54:13.546 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 21:54:13.573 [main] INFO 
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-12-14 21:54:13.771 [main] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-12-14 21:54:13.780 [main] INFO 
+                org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-12-14 21:54:13.780 [main] INFO 
+                org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-14 21:54:13.781 [main] INFO 
+                org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-12-14 21:54:13.881 [main] INFO 
+                o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-14 21:54:13.881 [main] INFO 
+                org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1648 ms
+2022-12-14 21:54:14.256 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-12-14 21:54:14.342 [main] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-12-14 21:54:15.023 [main] INFO 
+                s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-14 21:54:15.063 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-12-14 21:54:15.066 [main] INFO 
+                com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-12-14 21:54:15.239 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-12-14 21:54:15.773 [main] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2022-12-14 21:54:15.966 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-12-14 21:54:15.991 [main] INFO 
+                s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-12-14 21:54:16.033 [main] INFO 
+                s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-12-14 21:54:16.294 [main] INFO 
+                org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-12-14 21:54:16.322 [main] INFO 
+                o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-12-14 21:54:16.361 [main] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, service-edu 172.20.10.2:8001 register finished
+2022-12-14 21:54:16.372 [main] INFO 
+                com.study.EduApplication - Started EduApplication in 5.198 seconds (JVM running for 5.934)
+2022-12-14 23:12:34.051 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-12-14 23:12:34.090 [SpringContextShutdownHook] INFO 
+                o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-12-14 23:12:34.138 [SpringContextShutdownHook] INFO 
+                o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-12-14 23:12:34.151 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-12-14 23:12:34.169 [SpringContextShutdownHook] INFO 
+                com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

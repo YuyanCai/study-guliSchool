@@ -99,10 +99,10 @@
         </dependency>
 
         <!--nacos服务的注册-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
 
 <!--        &lt;!&ndash;feign服务的发现调用&ndash;&gt;-->
 <!--        <dependency>-->
