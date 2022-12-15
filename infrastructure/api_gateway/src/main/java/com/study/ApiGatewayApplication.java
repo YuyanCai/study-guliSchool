@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  * @author: xiaocai
- * @since: 2022/12/07/22:14
+ * @since: 2022/12/14/21:08
  */
 @SpringBootApplication
 @EnableDiscoveryClient
-public class EduApplication {
+public class ApiGatewayApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EduApplication.class,args);
+        SpringApplication.run(ApiGatewayApplication.class, args);
     }
 }
-

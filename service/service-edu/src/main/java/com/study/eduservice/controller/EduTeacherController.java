@@ -30,7 +30,6 @@ import java.util.Map;
 
 @Api(tags = "讲师管理")
 @RestController
-@CrossOrigin
 @RequestMapping("/eduService/teacher")
 public class EduTeacherController {
     //把service注入
@@ -45,11 +44,6 @@ public class EduTeacherController {
     public R findAllTeacher() {
         //调用service的方法，实现查询所有的方法
         List<EduTeacher> list = teacherService.list(null);
-        try {
-            int i = 10 / 0;
-        } catch (Exception e) {
-            throw new Guliexception(20001,"执行了自定义异常处理");
-        }
         return R.ok().data("items", list);
     }
 

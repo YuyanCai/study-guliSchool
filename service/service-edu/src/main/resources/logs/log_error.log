@@ -1,8 +1,6 @@
-2022-12-11 20:57:45.199 [http-nio-8001-exec-5] ERROR
-                com.study.exceptionhandle.GlobalExceptionHandler - 
-### Error updating database.  Cause: java.sql.SQLException: Field 'name' doesn't have a default value
-### The error may involve com.study.eduservice.mapper.EduTeacherMapper.insert-Inline
-### The error occurred while setting parameters
-### SQL: INSERT INTO edu_teacher  ( id,        gmt_create, gmt_modified )  VALUES  ( ?,        ?, ? )
-### Cause: java.sql.SQLException: Field 'name' doesn't have a default value
-; Field 'name' doesn't have a default value; nested exception is java.sql.SQLException: Field 'name' doesn't have a default value
+2022-12-15 16:11:50.006 [http-nio-8001-exec-10] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-15 16:12:35.518 [http-nio-8001-exec-1] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
+2022-12-15 16:12:45.501 [http-nio-8001-exec-2] ERROR
+                com.study.exceptionhandle.GlobalExceptionHandler - null
